@@ -1,0 +1,74 @@
+
+/* With Transitions you can change one property to another over a set duration. You must at minimum specify a property and a duration. We can use our css to customize further. */
+
+
+*{
+	margin:0;
+	padding:0;
+}
+#page{
+	width:90%;
+	margin:50px auto;
+}
+.box{
+	width:100px;
+	height:100px;
+	background-color: red;
+	border: 3px solid #000000;
+	margin-bottom:75px;
+}
+
+/* Each box you see below, has the class "box" applied to it (above this message). If you look at "#box3:hover" below, you will see the width is changing to 250px. It's changing to 250px from the 100px that were applied to it in the .box class. So you can transition styles that are applied directly to the div you want to change, or are being picked up by it from another place, like a class.
+
+THERE ARE DIFFERENT WAYS TO DO THIS. I am going start with adding styles to my boxes to customize them, then add the transition on the hover. */
+
+#box1{
+	transition: width;
+	transition-duration:7s;
+}
+#box1:hover{
+	width:200px;
+}
+
+/* I'm going to do another one, this time using two attributes */
+
+#box2{
+	transition: width, background-color;
+	transition-duration:3s;
+}
+#box2:hover{
+	width:250px;
+	background-color: blue;
+}
+
+/* Now I'll make it a little more complex by adding more styles, but it's the same idea */
+
+#box3{
+	transition: width, height, background-color, border, transform;
+	transition-duration: 8s;
+}
+#box3:hover{
+	width:250px;
+	height:50px;
+	background-color: green;
+	border: 5px solid purple;
+	transform:rotate(45deg);
+}
+
+/* Remember, some of those styles, like border, are up on the class for box. You can change any
+setting this way, including type styles. Also note: I added transform as one of the attributes!*/
+
+#box4{
+	transition: width 2s, height 3s, background-color 4s, border 1s, transform 5s;
+	transition-delay: 2s, 1s, 2s, 1s, 7s;
+	transition-timing-function:ease-in-out;
+}
+#box4:hover{
+	width:250px;
+	height:50px;
+	background-color: blue;
+	border: 5px solid green;
+	transform: scale(0.5) rotate(45deg);
+}
+
+/* And that time, I've added seperate timing for each transition, and seperate transition delay. I can come up with whatever combinations of timing, delay, timing-funciton I want. */

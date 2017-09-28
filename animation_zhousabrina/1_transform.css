@@ -1,0 +1,57 @@
+
+/*Transforms are the most simple of the three we're looking at. You can do 2D or 3D transforms.
+In this file we are going to be looking only at the main 4 2D transform options.*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+#page{
+	width:90%;
+	margin:50px auto;
+}
+.box{
+	width:100px;
+	height:100px;
+	background-color: blue;
+	border: 3px solid #000000;
+	margin-bottom:75px;
+}
+
+/* Each box I'm creating has the class "box" applied to it, so I only need the css once.
+
+Anything specific to an individual box will be added using the id. The id styles don't cancel out the class, they add to it.
+
+Since I don't need to customize the look of each box to begin with, I'm only going to apply changes to the :hover */
+
+
+#box1:hover{
+	transform:scale(5);
+}
+
+/*I'm going to do another version of scale, where I change only the side-to-side scale*/
+
+#box2:hover{
+	transform:scale(1, 6);
+}
+
+
+#box3:hover{
+	transform:rotate(180deg);
+}
+
+
+/* We can also use "active" instead of "hover." Click and hold down on mouse to see transform. */
+
+#box4:active{
+	transform:translate(10px);
+}
+
+#box5:active{
+	transform:skew(350deg);
+}
+
+
+
+/* There are also 3D values we can look at. They behave the same, we just specify a third direction. But these become more interesting when we use transitions.*/

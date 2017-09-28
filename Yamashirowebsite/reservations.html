@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id="wrapper">
+  <header>
+    <div id="logobox"></div>
+
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="menu.html">MENU</a></li>
+      <li><a href="reservations.html">RESERVATION</a></li>
+      <li><a href="aboutus.html">ABOUT US</a></li>
+      <li><a href="pictures.html">PICTURES</a></li>
+    </ul>
+  </nav>
+
+<main>
+  <div id="reservation" align="center">
+  </div>
+</main>
+
+<div id="divider">
+</div>
+
+<div id="text">
+<h1 align=center> Reservation</h1>
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+<form>
+  <fieldset>
+      <legend>Reservation information:</legend>
+  <div>
+    <label for="date">Date</label><br>
+    <input type="text" name="date" id="date" value="mm/dd/yyyy"/>
+  </div>
+  <div>
+    <label for="time">Time</label><br>
+    <input type="text" name="time" id="time" value="00:00"/><br>
+    <input type="radio" name="am" value="Am" checked> AM
+    <input type="radio" name="pm" value="Pm"> PM
+  </div>
+  <br>
+  <div class="dropdown">
+  <button class="dropbtn">Guests: (select one)</button>
+  <div class="dropdown-content">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">other</a>
+  </div>
+</fieldset>
+<div id="personal">
+  <div>
+    <label for="firstname">First name</label><br>
+    <input type="text" name="name" id="name"/>
+  </div>
+  <div>
+    <label for="lastname">Last name</label><br>
+    <input type="text" name="lastname" id="lastname"/>
+  </div>
+  <div>
+    <label for="phonenumber">Phone number</label><br>
+    <input type="text" name="phonenumber" id="phonenumber"/>
+  </div>
+  <div>
+    <label for="email">Email</label><br>
+    <input type="text" name="email" id="email"/>
+  </div>
+  <br>
+	<div class="form">
+		<label for="message">Special requests</label><br>
+		<textarea name="message" id="message"></textarea>
+	</div>
+
+  <button type="confirm"><a href="confirmation.html">Confirm</a></button>
+</div>
+</form>
+</div>
+
+<div id="bottom">
+    <a href="https://www.facebook.com/YamashiroLA" target="_blank">
+      <div id="facebook"></div>
+    </a>
+    <a href="https://www.instagram.com/yamashirola/?ref=badge" target="_blank">
+      <div id="instagram"></div>
+    </a>
+    <a href="https://twitter.com/YamashiroLA" target="_blank">
+      <div id="twitter"></div>
+    </a>
+</div>
+</div>
+</body>
+</html>

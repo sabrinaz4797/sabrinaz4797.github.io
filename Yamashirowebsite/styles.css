@@ -1,0 +1,556 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color: #fff;
+}
+#wrapper{
+  width:90%;
+  margin:0 auto;
+}
+
+/*---- navigation ----*/
+
+nav{
+  background-color: #000;
+  width:100%;
+  height:80px;
+	margin-bottom: 30px;
+}
+nav ul{
+  list-style-type:none;
+  width:80%;
+	margin: 0 auto;
+}
+nav li{
+  float:left;
+	padding: 0 60px;
+}
+nav a{
+  color: #FFF;
+  text-decoration:none;
+  font-family: Arial, helvetica, sans-serif;
+  line-height: 80px;
+}
+
+/*---- general info ----*/
+
+header{
+  clear:both;
+  background-image: url("images/website banner.jpg");
+	background-position: 50% 30%;
+	background-size: 100% 100%;
+  height:225px;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 4em;
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9E0000;
+  font-size: 1.5em;
+}
+h3{
+  font-family: Arial, Helveica, sans-serif;
+  color: #000;
+  margin-bottom: 25px;
+	font-size: .7em;
+}
+h4{
+  font-family: Arial, sans-serif;
+  color: #9E0000;
+  margin-bottom: 75px;
+  font-size: 1.25em;
+  text-align: right;
+}
+h5{
+  font-family: Arial, sans-serif;
+  color: #000;
+  margin-bottom: 75px;
+  font-size: 1em;
+}
+h6{
+  font-family: Arial, Helveica, sans-serif;
+  color: #000;
+  margin-bottom: 75px;
+  margin-left: 40px;
+	font-size: .7em;
+  line-height: 20px;
+}
+p{
+  font-family: helvetica, sans-serif;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1em;
+  line-height: 25px;
+}
+main{
+  width: 100%;
+  height: 600px;
+  background-image: url("images/front-gate.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 30%;
+	margin-bottom: 30px;
+}
+#welcome{
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  opacity: 0.5;
+    line-height: 150px;
+}
+#confirmation{
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  opacity: 0.5;
+  line-height: 150px;
+}
+
+/*---- page image alternatives ----*/
+
+#reservation{
+  width: 100%;
+  height: 600px;
+  background-image: url("images/daytemple.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+#aboutus{
+  width: 100%;
+  height: 600px;
+  background-image: url("images/historical.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+#starters{
+  width: 100%;
+  height: 600px;
+  background-image: url("images/crabcakes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 20%;
+}
+#salads{
+  width: 100%;
+  height: 600px;
+  background-image: url("images/salad.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 20%;
+}
+#rolls{
+  width: 100%;
+  height: 600px;
+  background-image: url("images/roll.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 20%;
+}
+#sashimi{
+  width: 100%;
+  height: 600px;
+  background-image: url("images/sashimi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 20%;
+}
+#entree{
+  width: 100%;
+  height: 600px;
+  background-image: url("images/entree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 20%;
+}
+#dessert{
+  width: 100%;
+  height: 600px;
+  background-image: url("images/dessert.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 20%;
+}
+#drink{
+  width: 100%;
+  height: 600px;
+  background-image: url("images/drink.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 70%;
+}
+
+/*---- divider ----*/
+
+#divider{
+	width: 100%;
+	height: 40px;
+	background-color: #9E0000;
+  clear: both;
+}
+#startersdivider{
+  width: 100%;
+  height: 150px;
+  background-color: #9E0000;
+  line-height: 150px;
+}
+
+/*---- reservation ----*/
+
+#text{
+  margin-top: 30px;
+    column-count: 2;
+    column-gap: 40px;
+    column-rule-style: dotted;
+    margin-bottom: 30px;
+}
+table{
+  margin-top: 40px;
+}
+form{
+  background-color: #FFF;
+  width: 100%;
+  height: 400px;
+  align-content: center;
+}
+fieldset{
+  float:right;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  width: 300px;
+  line-height: 30px;
+}
+#personal{
+  width: 300px;
+  float:left;
+  line-height: 25px;
+}
+button{
+	color: #FFF;
+	background-color: #9E0000;
+	width:100px;
+	height:50px;
+  font-size: 16px;
+	margin-top: 20px;
+	border-style: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Arial, helvetica, sans-serif;
+}
+button a{
+  color:#FFF;
+  text-decoration: none;
+}
+.dropbtn {
+    background-color: #750000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #750000;
+}
+
+
+/*---- menu images ----*/
+
+.insets{
+  width: 45%;
+  height: 550px;
+  float: left;
+  margin-bottom:40px;
+}
+#pic1{
+  background-image: url("images/starters2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 45px;
+  color:#000;
+  text-align: center;
+  line-height: 550px;
+  text-decoration:none;
+  font-family: Arial, helvetica, sans-serif;
+}
+#pic1:hover{
+  background-image: url("images/starters.jpg");
+}
+#pic2{
+  background-image: url("images/salad2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 40px;
+  color:#000;
+  text-align: center;
+  line-height: 550px;
+  text-decoration:none;
+  font-family:Arial, helvetica, sans-serif;
+}
+#pic2:hover{
+  background-image: url("images/salad.jpg");
+}
+#pic3{
+  background-image: url("images/roll2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 45px;
+  background-position: 50% 30%;
+  color:#000;
+  text-align: center;
+  line-height: 550px;
+  text-decoration:none;
+  font-family: Arial, helvetica, sans-serif;
+}
+#pic3:hover{
+  background-image: url("images/roll.jpg");
+}
+#pic4{
+  background-image: url("images/sashimi2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 40px;
+  background-position: 50% 30%;
+  color:#000;
+  text-align: center;
+  line-height: 550px;
+  text-decoration:none;
+  font-family: Arial, helvetica, sans-serif;
+}
+#pic4:hover{
+  background-image: url("images/sashimi.jpg");
+}
+#pic5{
+  background-image: url("images/entree2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 45px;
+  color:#000;
+  text-align: center;
+  line-height: 550px;
+  text-decoration:none;
+  font-family: Arial, helvetica, sans-serif;
+}
+#pic5:hover{
+  background-image: url("images/entree.jpg");
+}
+#pic6{
+  background-image: url("images/dessert2.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-left: 40px;
+  background-position: 50% 30%;
+  color:#000;
+  text-align: center;
+  line-height: 550px;
+  text-decoration:none;
+  font-family: Arial, helvetica, sans-serif;
+}
+#pic6:hover{
+  background-image: url("images/dessert.jpg");
+}
+#pic7{
+  background-image: url("images/drink2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 45px;
+  background-position: 40% 30%;
+  color:#000;
+  text-align: center;
+  line-height: 550px;
+  text-decoration:none;
+  font-family: Arial, helvetica, sans-serif;
+}
+#pic7:hover{
+  background-image: url("images/drink.jpg");
+}
+#pic8{
+  background-image: url("images/daytemple2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 45px;
+  background-position: 40% 30%;
+  color:#000;
+  text-align: center;
+  line-height: 550px;
+  text-decoration:none;
+  font-family: Arial, helvetica, sans-serif;
+}
+#pic8:hover{
+  background-image: url("images/daytemple.jpg");
+}
+#pic9{
+  background-image: url("images/historical2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 45px;
+  background-position: 40% 30%;
+  color:#000;
+  text-align: center;
+  line-height: 550px;
+  text-decoration:none;
+  font-family: Arial, helvetica, sans-serif;
+}
+#pic9:hover{
+  background-image: url("images/historical.jpg");
+}
+#pic10{
+  background-image: url("images/wedding2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 45px;
+  background-position: 50% 60%;
+  color:#000;
+  text-align: center;
+  line-height: 550px;
+  text-decoration:none;
+  font-family: Arial, helvetica, sans-serif;
+}
+#pic10:hover{
+  background-image: url("images/wedding.jpg");
+}
+#pic11{
+  background-image: url("images/privateevents2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 45px;
+  background-position: 50% 60%;
+  color:#000;
+  text-align: center;
+  line-height: 550px;
+  text-decoration:none;
+  font-family: Arial, helvetica, sans-serif;
+}
+#pic11:hover{
+  background-image: url("images/privateevents.jpg");
+}
+#pic12{
+  background-image: url("images/movie2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 45px;
+  background-position: 40% 30%;
+  color:#000;
+  text-align: center;
+  line-height: 550px;
+  text-decoration:none;
+  font-family: Arial, helvetica, sans-serif;
+}
+#pic12:hover{
+  background-image: url("images/movie.jpg");
+}
+#leftside{
+  float: left;
+  width: 100%;
+}
+
+/*---- social media links ----*/
+
+#facebook{
+  background-image: url("images/facebooklogo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height:30px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+#instagram{
+  background-image: url("images/instagramlogo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height:30px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+#twitter{
+  background-image: url("images/twitterlogo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height:30px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+#bottom{
+  width: 100%;
+  height: 50px;
+  background-color: #9E0000;
+  clear: both;
+}
+
+
+/*---- menu items ----*/
+
+
+table{
+  width:60%;
+  margin: 80px auto 40px;
+}
+.item{
+  font-family: Arial, sans-serif;
+  color: #9E0000;
+  font-size: 1.25em;
+  font-weight: 800;
+  text-align: right;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  width: 20%;
+  height:50px;
+}
+.description{
+  font-family: Arial, Helveica, sans-serif;
+  color: #000;
+  font-size: 1em;
+  padding-left: 20px;
+  border-left: dotted #9E0000;
+  line-height: 20px;
+  width: 60%;
+  height:50px;
+}
+.price{
+  font-family: Arial, sans-serif;
+  color: #000;
+  font-size: 1em;
+  font-weight: 600;
+  width: 20%;
+  border-left: dotted #9E0000;
+  padding-left: 20px;
+  height:50px;
+}
